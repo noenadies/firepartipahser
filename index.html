@@ -127,7 +127,7 @@ function create() {
 
     emitter.addToWorld();
 
-    emitter.emit('fire', [380, 420], 400, { repeat: -1, frequency: 30 });
+    emitter.emit('fire', [380, 420], 200, { repeat: -1, frequency: 30 });
 
    // game.add.image(432, 487, 'logo');
 
@@ -139,9 +139,17 @@ function update() {
 
 function render() {
 
-    emitter.debug(432, 522);
+    emitter.debug(w/2+100, h/2+100);
 
 }
+
+
+
+
+
+
+
+
         
         </script>
 
